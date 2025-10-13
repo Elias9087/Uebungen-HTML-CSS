@@ -1,0 +1,59 @@
+           body {
+                margin-left: 10%;
+                margin-right: 10%;
+                background-color: #bbe09f;
+            }
+
+            div#titlepage {
+                padding: 1em;
+            }
+
+            div#titlepage p {
+                text-align: center;
+                font-variant: small-caps;
+                background-color: #d4f8b9;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            h1{
+                color: #cc3300;
+            
+            }
+
+            h2{
+                color: #cc663300;
+            }
+
+            
+            h1, h2, h3,
+            h4,
+            h5,
+            h6 {
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            a:link{
+                color: #cc3300
+            }
+
+            a:hover {
+                color: #030;
+                background-color: #87b862;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: #c30;
+            }
+
+            a:visited{
+                color: #363;
+            }
+
+
+
+        

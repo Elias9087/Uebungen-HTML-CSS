@@ -1,0 +1,15 @@
+#link1:hover{
+    text-decoration: underline;
+}
+
+#link2:hover{
+    color:green;
+}
+
+#link3:hover{
+    text-decoration: line-through;
+}
+
+#link4:hover {
+  transform: scale(2);
+}

@@ -1,9 +1,13 @@
 html, body {
     margin: 0;
+    min-width: 900px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header, main, footer {
     overflow: auto;
+    
 }
 
 header {
@@ -12,6 +16,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    height: 500px;
 }
 
 main {
@@ -21,4 +26,48 @@ main {
 h1 span {
     display: block;
     font-size: 0.8em;
+}
+
+footer{
+    height: 100px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 144px;
+}
+
+.navheader{
+     display: flex;
+     justify-content: end;
+     padding-right: 10px;
+}
+
+.titel{
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+    border: black 1px solid;
+    background-color: white;
+    height: 65px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
 }
